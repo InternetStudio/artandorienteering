@@ -1,5 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
 * {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  margin: 0 0 24px;
+  margin: 0 0 1.714285714rem;
+  line-height: 1.714285714;
+}
+
+footer {
+  float: left;
+  width: 65.104166667%;
+}
+
+.footer-logos {
+  margin-top: 20px;
+
 }
