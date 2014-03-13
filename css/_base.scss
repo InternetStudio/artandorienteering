@@ -1,21 +1,45 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
 
 * {
-  font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.4em;
+}
+
+body {
+	background: url('img/background.jpg') no-repeat 0 0 fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p {
-  margin: 0 0 24px;
-  margin: 0 0 1.714285714rem;
-  line-height: 1.714285714;
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+	line-height: 1.714285714;
 }
 
 footer {
-  float: left;
-  width: 65.104166667%;
+	float: left;
+	width: 65.104166667%;
+}
+
+.site-header h1 {
+	font-size: 4em;
+}
+
+.nav-menu li {
+	
+	font-size: 1.4em;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+	font-weight: bold;
 }
 
 .footer-logos {
-  margin-top: 20px;
-
+	margin-top: 20px;
 }

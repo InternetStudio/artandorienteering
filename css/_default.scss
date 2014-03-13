@@ -523,7 +523,6 @@ a:hover {
 .site {
   padding: 0 24px;
   padding: 0 1.714285714rem;
-  background-color: #fff;
 }
 .site-content {
   margin: 24px 0 0;
@@ -1546,13 +1545,7 @@ img#wpstats {
     background: #e3e3e3;
     color: #444;
   }
-  .main-navigation .current-menu-item > a,
-  .main-navigation .current-menu-ancestor > a,
-  .main-navigation .current_page_item > a,
-  .main-navigation .current_page_ancestor > a {
-    color: #636363;
-    font-weight: bold;
-  }
+
   .menu-toggle {
     display: none;
   }
