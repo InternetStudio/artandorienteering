@@ -20,6 +20,7 @@
 			<?php the_post_thumbnail(); ?>
 			<?php if ( is_single() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
+			<?php the_content(); ?>
 			<?php else : ?>
 			<h1 class="entry-title">
 				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
