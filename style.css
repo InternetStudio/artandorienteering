@@ -668,12 +668,6 @@ footer[role="contentinfo"] a:hover {
   margin-bottom: 24px;
   margin-bottom: 1.714285714rem; }
 
-.entry-header .entry-title {
-  font-size: 20px;
-  font-size: 1.428571429rem;
-  line-height: 1.2;
-  font-weight: normal; }
-
 .entry-header .entry-title a {
   text-decoration: none; }
 
@@ -1493,10 +1487,6 @@ img#wpstats {
   .menu-toggle {
     display: none; }
 
-  .entry-header .entry-title {
-    font-size: 22px;
-    font-size: 1.571428571rem; }
-
   #respond form input[type="text"] {
     width: 46.333333333%; }
 
@@ -1642,11 +1632,6 @@ img#wpstats {
     margin: 0;
     width: 100%; }
 
-  .entry-header .entry-title,
-  .entry-title,
-  .singular .entry-title {
-    font-size: 21pt; }
-
   footer.entry-meta,
   footer.entry-meta a {
     color: #444;
@@ -1703,6 +1688,17 @@ footer {
 .main-navigation .current_page_item > a,
 .main-navigation .current_page_ancestor > a {
   font-weight: bold; }
+
+.site-content, h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5em; }
+
+.nav-single a {
+  text-decoration: none; }
+
+footer.site-footer {
+  border-top: 4px solid #444;
+  padding-top: 40px;
+  margin-top: 40px; }
 
 .footer-logos {
   margin-top: 20px; }

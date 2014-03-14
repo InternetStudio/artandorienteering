@@ -24,6 +24,7 @@ footer {
 	width: 65.104166667%;
 }
 
+
 .site-header h1 {
 	font-size: 4em;
 }
@@ -39,6 +40,21 @@ footer {
 .main-navigation .current_page_ancestor > a {
 	font-weight: bold;
 }
+
+.site-content, h1, h2, h3, h4, h5, h6 {
+	font-size: 1.5em;	
+}
+
+.nav-single a {
+	text-decoration: none;
+}
+
+footer.site-footer {
+	border-top: 4px solid #444;
+	padding-top: 40px;
+	margin-top: 40px;
+}
+
 
 .footer-logos {
 	margin-top: 20px;

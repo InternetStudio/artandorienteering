@@ -10,7 +10,7 @@
  */
 ?>
 	</div><!-- #main .wrapper -->
-	<footer>
+	<footer class="site-footer">
     <p>Online catalogue for FEATURED FEATURES, a project by Hannah Jickling hosted at The Yukon Arts Centre Gallery, August – September, 2013. </p>
 	  <p>Co-presented by:</p>
     <div class="footer-logos">
