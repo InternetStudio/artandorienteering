@@ -2,7 +2,7 @@
 
 * {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 body {
@@ -16,7 +16,14 @@ body {
 p {
 	margin: 0 0 24px;
 	margin: 0 0 1.714285714rem;
-	line-height: 1.714285714;
+}
+
+.entry-content p {
+	line-height: 1.414285714;
+}
+
+h1.entry-title {
+	margin-bottom: 20px;
 }
 
 footer {
@@ -30,7 +37,6 @@ footer {
 }
 
 .nav-menu li {
-	
 	font-size: 1.4em;
 }
 
@@ -42,7 +48,11 @@ footer {
 }
 
 .site-content, h1, h2, h3, h4, h5, h6 {
-	font-size: 1.5em;	
+	font-size: 1.2em;	
+}
+
+.site-content article {
+	margin-bottom: 0px;
 }
 
 .nav-single a {

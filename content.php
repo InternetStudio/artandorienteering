@@ -25,7 +25,6 @@
 				<h1 class="entry-title">
 					<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 				</h1>
-				<p><?php the_excerpt(); ?></p>
 			<?php endif; // is_single() ?>
 		</header><!-- .entry-header -->
 	</article><!-- #post -->
