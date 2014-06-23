@@ -50,7 +50,7 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 
 /* =Reset
 -------------------------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700italic,700,300,300italic|Nunito:400,300,700);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -520,10 +520,6 @@ a:hover {
   margin: 1.714285714rem 0 0; }
 
 /* Header */
-.site-header {
-  padding: 24px 0;
-  padding: 1.714285714rem 0; }
-
 .site-header h1,
 .site-header h2 {
   text-align: center; }
@@ -558,8 +554,6 @@ a:hover {
 
 /* Navigation Menu */
 .main-navigation {
-  margin-top: 24px;
-  margin-top: 1.714285714rem;
   text-align: center; }
 
 .main-navigation li {
@@ -806,8 +800,7 @@ article.sticky .featured-post {
   margin-bottom: 24px;
   margin-bottom: 1.714285714rem;
   padding: 24px;
-  padding: 1.714285714rem;
-  font-style: italic; }
+  padding: 1.714285714rem; }
 
 .entry-content blockquote p:last-child,
 .comment-content blockquote p:last-child {
@@ -1391,10 +1384,6 @@ img#wpstats {
     max-width: 68.571428571rem;
     overflow: hidden; }
 
-  .site-content {
-    float: left;
-    width: 65.104166667%; }
-
   body.template-front-page .site-content,
   body.attachment .site-content,
   body.full-width .site-content {
@@ -1575,8 +1564,6 @@ img#wpstats {
     position: relative !important; }
 
   .site-header {
-    margin-bottom: 72px;
-    margin-bottom: 5.142857143rem;
     text-align: left; }
 
   .site-header h1 {
@@ -1651,9 +1638,37 @@ img#wpstats {
   .comments-area article header time {
     margin-left: 50px;
     margin-left: 3.57142857rem; } }
-* {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.2em; }
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+.site-header h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 5em;
+  font-weight: 300; }
+
+.nav-menu li {
+  font-size: 1.825em;
+  font-weight: 300; }
+  .nav-menu li a {
+    font-family: "Nunito", sans-serif; }
+
+.site-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.45em; }
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+  font-weight: 400; }
+
+.entry-content blockquote {
+  font-style: none; }
+  .entry-content blockquote p {
+    font-size: .8em; }
 
 body {
   background: url("img/background.jpg") no-repeat 0 0 fixed;
@@ -1662,40 +1677,29 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
+.site-content {
+  float: left;
+  width: 78.104166667%; }
+
+h1.entry-title {
+  margin-bottom: 10px; }
+
 p {
   margin: 0 0 24px;
   margin: 0 0 1.714285714rem; }
-
-.site-content p {
-  line-height: 1.414285714; }
-
-h1.entry-title {
-  margin-bottom: 20px; }
-
-footer {
-  float: left;
-  width: 65.104166667%; }
-
-.site-header h1 {
-  font-size: 4em; }
-
-.nav-menu li {
-  font-size: 1.4em; }
-
-.main-navigation .current-menu-item > a,
-.main-navigation .current-menu-ancestor > a,
-.main-navigation .current_page_item > a,
-.main-navigation .current_page_ancestor > a {
-  font-weight: bold; }
-
-.site-content, h1, h2, h3, h4, h5, h6 {
-  font-size: 1.2em; }
 
 .site-content article {
   margin-bottom: 0px; }
 
 .nav-single a {
   text-decoration: none; }
+
+.entry-content blockquote {
+  padding: 0; }
+
+footer {
+  float: left;
+  width: 65.104166667%; }
 
 footer.site-footer {
   border-top: 4px solid #444;
@@ -1704,3 +1708,5 @@ footer.site-footer {
 
 .footer-logos {
   margin-top: 20px; }
+  .footer-logos img {
+    padding-right: 30px; }

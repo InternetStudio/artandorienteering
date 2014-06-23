@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700italic,700,300,300italic|Nunito:400,300,700);
+
+$header-font: 'Nunito', sans-serif;
+$body-font: 'Roboto', sans-serif;
+
+h1, h2, h3, h4, h5 {
+	font-family: $body-font;
+	font-weight: 300;
+}
+
+.site-header h1 {
+	font-family: $header-font;
+	font-size: 5em;
+	font-weight: 300;
+}
+
+.nav-menu li {
+	font-size: 1.825em;
+	font-weight: 300;
+	a {
+		font-family: $header-font;
+	}
+}
+
+.site-content {
+	font-family: $body-font;
+	font-size: 1.25em;
+	font-weight: 300;
+	line-height: 1.45em;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+	font-weight: 400;
+}
+
+.entry-content blockquote {
+	font-style: none;
+	p {
+		font-size: .8em;
+	}
+}
