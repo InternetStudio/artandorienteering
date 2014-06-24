@@ -15,7 +15,7 @@ get_header(); ?>
 
 	<section id="primary" class="site-content">
 		<div id="content" role="main">
-		<?php query_posts("page_id=10"); ?>
+		<?php query_posts("page_id=8"); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?> 
 			<div class="category-intro">
@@ -23,7 +23,7 @@ get_header(); ?>
 			</div>
 		<?php endwhile; ?>
 		
-		<?php query_posts("cat=3"); ?>
+		<?php query_posts("cat=4"); ?>
 
 		<?php if ( have_posts() ) : ?>
 
