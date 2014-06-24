@@ -15,7 +15,7 @@ get_header(); ?>
 
 	<section id="primary" class="site-content">
 		<div id="content" role="main">
-		<?php query_posts("page_id=8"); ?>
+		<?php query_posts("page_id=10"); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?> 
 			<?php the_content(); ?>
