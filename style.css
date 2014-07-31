@@ -1677,6 +1677,9 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
+img {
+  max-width: 100%; }
+
 .site-content {
   float: left; }
 
