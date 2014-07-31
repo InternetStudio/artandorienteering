@@ -50,3 +50,12 @@ a {
 .site-footer {
 	line-height: 1.45em;
 }
+
+@media all and (max-width: 445px) {
+	.site-header h1 {
+		font-size: 3.5em;
+	}
+	.nav-menu li a {
+		text-decoration: none;
+	}
+}
