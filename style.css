@@ -563,12 +563,6 @@ a:hover {
   font-size: 0.857142857rem;
   line-height: 1.42857143; }
 
-.main-navigation a {
-  color: #5e5e5e; }
-
-.main-navigation a:hover {
-  color: #21759b; }
-
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
   display: none; }
@@ -1380,8 +1374,7 @@ img#wpstats {
 
   .site {
     margin: 0 auto;
-    max-width: 960px;
-    max-width: 68.571428571rem;
+    width: 52em;
     overflow: hidden; }
 
   body.template-front-page .site-content,
@@ -1421,7 +1414,6 @@ img#wpstats {
 
   .main-navigation li a {
     border-bottom: 0;
-    color: #6a6a6a;
     line-height: 3.692307692;
     text-transform: uppercase;
     white-space: nowrap; }
@@ -1433,6 +1425,8 @@ img#wpstats {
     margin: 0 40px 0 0;
     margin: 0 2.857142857rem 0 0;
     position: relative; }
+    .main-navigation li:last-of-type {
+      margin-right: 0px; }
 
   .main-navigation li ul {
     display: none;
@@ -1642,13 +1636,16 @@ h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
 
+a {
+  color: #21759b; }
+
 .site-header h1 {
   font-family: "Nunito", sans-serif;
   font-size: 5em;
   font-weight: 300; }
 
 .nav-menu li {
-  font-size: 1.825em;
+  font-size: 1.4em;
   font-weight: 300; }
   .nav-menu li a {
     font-family: "Nunito", sans-serif; }
@@ -1670,6 +1667,9 @@ h1, h2, h3, h4, h5 {
   .entry-content blockquote p {
     font-size: .8em; }
 
+.site-footer {
+  line-height: 1.45em; }
+
 body {
   background: url("img/background.jpg") no-repeat 0 0 fixed;
   -webkit-background-size: cover;
@@ -1678,8 +1678,7 @@ body {
   background-size: cover; }
 
 .site-content {
-  float: left;
-  width: 78.104166667%; }
+  float: left; }
 
 h1.entry-title {
   margin-bottom: 10px; }
@@ -1698,8 +1697,7 @@ p {
   padding: 0; }
 
 footer {
-  float: left;
-  width: 65.104166667%; }
+  float: left; }
 
 footer.site-footer {
   border-top: 4px solid #444;
