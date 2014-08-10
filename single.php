@@ -18,8 +18,8 @@ get_header(); ?>
 
 				<nav class="nav-single">
 					<h3 class="assistive-text"><?php _e( 'Post navigation', 'twentytwelve' ); ?></h3>
-					<span class="nav-previous"><?php next_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Next post link', 'twentytwelve' ) . '</span> %title' ); ?></span>
-					<span class="nav-next"><?php previous_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Previous post link', 'twentytwelve' ) . '</span>' ); ?></span>
+					<span class="nav-previous"><?php next_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Next post link', 'twentytwelve' ) . '</span> %title', $in_same_term = true ); ?></span>
+					<span class="nav-next"><?php previous_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Previous post link', 'twentytwelve' ) . '</span>', $in_same_term = true ); ?></span>
 		
 				</nav><!-- .nav-single -->
 

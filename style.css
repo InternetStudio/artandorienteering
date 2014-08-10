@@ -1638,6 +1638,8 @@ h1, h2, h3, h4, h5 {
 
 a {
   color: #21759b; }
+  a:visited {
+    color: #21759b; }
 
 .site-header h1 {
   font-family: "Nunito", sans-serif;
@@ -1662,9 +1664,9 @@ a {
 .main-navigation .current_page_ancestor > a {
   font-weight: 400; }
 
-.entry-content blockquote {
+blockquote {
   font-style: none; }
-  .entry-content blockquote p {
+  blockquote p {
     font-size: .8em; }
 
 .site-footer {
