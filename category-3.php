@@ -45,6 +45,12 @@ get_header(); ?>
 		<?php else : ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
+		<?php query_posts("page_id=10"); ?>
+		<?php while ( have_posts() ) : the_post(); ?>
+
+			<?php the_field('exhibition_secondary_content'); ?>
+
+		<?php endwhile; // end of the loop. ?>
 		
 		</div><!-- #content -->
 	</section><!-- #primary -->
